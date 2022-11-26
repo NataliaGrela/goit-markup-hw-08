@@ -6,7 +6,7 @@
   --third-background: #2f303a;
   --transition-duration: 250ms;
   --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
-  --project-width: 480px;
+  --mobile-width: 480px;
 }
 
 * {
@@ -41,7 +41,7 @@ button[type=button] {
 }
 
 .page-header {
-  width: 480px;
+  width: var(--mobile-width);
   margin: auto;
   display: flex;
   align-items: center;
@@ -50,7 +50,7 @@ button[type=button] {
 
 .page-header__border {
   border-bottom: 1px solid #ececec;
-  min-width: 480px;
+  min-width: var(--mobile-width);
 }
 
 .logo {
@@ -168,12 +168,12 @@ button[type=button] {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  max-width: 480px;
+  max-width: var(--mobile-width);
   margin: 0 auto;
 }
 
 .wrapper__background {
-  min-width: 480px;
+  min-width: var(--mobile-width);
   background: var(--third-background);
   color: #ffffff;
   display: flex;
@@ -286,7 +286,7 @@ button[type=button] {
 }
 
 .team {
-  min-width: 480px;
+  min-width: var(--mobile-width);
   margin: auto;
   background: var(--second-background);
 }
@@ -377,7 +377,7 @@ button[type=button] {
 }
 
 .page-color {
-  min-width: 480px;
+  min-width: var(--mobile-width);
   margin: auto;
   background: var(--second-background);
 }
@@ -428,7 +428,7 @@ button[type=button] {
 }
 
 .footer {
-  min-width: 480px;
+  min-width: var(--mobile-width);
   padding-top: 60px;
   padding-bottom: 60px;
   font-style: normal;
@@ -436,7 +436,7 @@ button[type=button] {
 }
 
 .footer__section {
-  max-width: 480px;
+  max-width: var(--mobile-width);
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;

@@ -1,5 +1,5 @@
 .team {
-    min-width: 480px;
+    min-width: var(--mobile-width);
     margin: auto;
     background: var(--second-background);
   }

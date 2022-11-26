@@ -1,5 +1,5 @@
 .footer {
-  min-width: 480px;
+  min-width: var(--mobile-width);
   // display: flex;
   // align-items: flex-start;
   padding-top: 60px;
@@ -9,7 +9,7 @@
 }
 
 .footer__section {
-  max-width: 480px;
+  max-width: var(--mobile-width);
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;

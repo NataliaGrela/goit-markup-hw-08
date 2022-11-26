@@ -1,5 +1,5 @@
 .page-header {
-  width: 480px;
+  width: var(--mobile-width);
   margin: auto;
   display: flex;
   align-items: center;
@@ -8,5 +8,5 @@
 
 .page-header__border {
   border-bottom: 1px solid #ececec;
-  min-width: 480px;
+  min-width: var(--mobile-width);
 }
