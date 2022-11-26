@@ -1,10 +1,13 @@
-
 .block-photo {
   gap: 30px;
-  display: block;
+  display: none;
   list-style-type: none;
   justify-content: center;
   align-items: flex-start;
+}
+
+.block-photo__title {
+  display: none;
 }
 
 .block-photo__competition {
