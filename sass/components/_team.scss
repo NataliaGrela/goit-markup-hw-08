@@ -1,0 +1,65 @@
+.team {
+    min-width: 480px;
+    margin: auto;
+    background: var(--second-background);
+  }
+  
+  // .title__color {
+  //   color: var(--brand-color);
+  // }
+  
+  .title {
+    margin-bottom: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  
+  .team__list {
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    list-style-type: none;
+  }
+  
+  .team__photo {
+    // display: flex;
+    // flex-direction: row;
+    // align-items: flex-start;
+    margin-inline: 15px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    width: 270px;
+    height: 428px;
+  }
+  
+  .team__name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 30px;
+  }
+  
+  .team__occupation {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--link-color);
+    margin-top: 10px;
+    margin-bottom: 16px;
+  }
+  

@@ -1,0 +1,52 @@
+.page-color {
+    min-width: 480px;
+    margin: auto;
+    background: var(--second-background);
+  }
+  
+  .title {
+    margin-bottom: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  
+  .section-box {
+    padding-top: 94px;
+    margin-bottom: 50px;
+    fill: #afb1b8;
+  }
+  
+  .section-box__icon--border {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    margin-right: 30px;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      border-color: var(--item-color);
+      transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+  
+  .section-box__icon:hover,
+  .section-box__icon:focus {
+    fill: var(--item-color);
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--cubic-bezier);
+  }
+  
+  .section-box__list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding-bottom: 94px;
+  }

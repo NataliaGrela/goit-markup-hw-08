@@ -1,0 +1,36 @@
+.logo {
+  margin-left: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--item-color);
+
+  &:hover,
+  &:focus {
+    color: var(--link-color);
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--cubic-bezier);
+  }
+
+  &:hover .logo__accent,
+  &:focus .logo__accent {
+    color: var(--link-color);
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--cubic-bezier);
+  }
+}
+
+.logo__accent {
+  color: black;
+
+  &:hover,
+  &:focus {
+    color: var(--link-color);
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--cubic-bezier);
+  }
+}

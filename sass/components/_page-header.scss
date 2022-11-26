@@ -1,0 +1,12 @@
+.page-header {
+  width: 480px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-header__border {
+  border-bottom: 1px solid #ececec;
+  min-width: 480px;
+}

@@ -1,0 +1,103 @@
+.fieldset {
+    display: flex;
+    position: relative;
+    padding-block: 0px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 448px;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    margin-bottom: 28px;
+
+    &:has(.fieldset__size:focus) {
+      border-color: var(--item-color);
+      transition-duration: var(--transition-duration);
+      transition-timing-function: var(--cubic-bezier);
+    }
+    
+    &:has(.fieldset__size:focus) .fieldset__icon {
+      fill: var(--item-color);
+      transition-duration: var(--transition-duration);
+      transition-timing-function: var(--cubic-bezier);
+    }
+  }
+  
+  .fieldset__label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: var(--link-color);
+    margin-left: 17px;
+    margin-bottom: 4px;
+    position: absolute;
+    top: -20px;
+    left: -15px;
+  }
+  
+  .modal-form .fieldset__size {
+    border: 0;
+    background-color: transparent;
+    width: 390px;
+    outline: none;
+  }
+  
+  .fieldset__icon {
+    width: 12px;
+    height: 12px;
+    fill: var(--brand-color);
+    position: absolute;
+    left: 10px;
+    display: block;
+  }
+  
+  .fieldset__comment {
+    display: flex;
+    position: relative;
+    padding-block: 0px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 448px;
+    height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    margin-bottom: 20px;
+
+    &:has(.fieldset__comment--size:focus) {
+      border-color: var(--item-color);
+      transition-duration: var(--transition-duration);
+      transition-timing-function: var(--cubic-bezier);
+    }
+  }
+  
+  .fieldset__comment--size {
+    width: 416px;
+    height: 96px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    resize: none;
+    outline: none;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+  }
+  
+  ::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+  }
+  

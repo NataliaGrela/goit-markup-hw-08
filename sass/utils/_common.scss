@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--brand-color);
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  .email {
+    text-decoration: underline;
+  }
+  
+  button[type='button'] {
+    cursor: pointer;
+  }
+  
+  .block {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
