@@ -1,22 +1,22 @@
 .page-header {
-  width: var(--mobile-width);
+  width: 100%;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 60px;
   position: fixed;
-  margin: 0;
-  padding: 0;
+  // margin: 0;
+  // padding: 0;
   border: none;
   background-color: white;
 }
 
 .page-header__border {
   border-bottom: 1px solid #ececec;
-  // min-width: var(--mobile-width);
+  min-width: var(--mobile-width);
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .page-header__navigation {
