@@ -3,10 +3,48 @@
   margin: auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  height: 60px;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: white;
 }
 
 .page-header__border {
   border-bottom: 1px solid #ececec;
-  min-width: var(--mobile-width);
+  // min-width: var(--mobile-width);
+  display: flex;
+  justify-content: center;
 }
+
+.page-header__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-header__menu {
+  margin-left: 284px;
+}
+
+.page-header__icon {
+  fill: var(--brand-color);
+}
+
+.page-header__icon:focus,
+.page-header__icon:hover {
+  fill: var(--item-color);
+}
+
+.page-header__btn {
+  border: none;
+}
+
+
+// .page-header__btn:focus,
+// .page-header__btn:hover {
+//   fill: var(--item-color);
+// }
+

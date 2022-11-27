@@ -18,6 +18,8 @@
     margin: auto;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
   }
   
   .container__title {
@@ -33,7 +35,6 @@
     text-transform: uppercase;
     margin-bottom: 10px;
     color: var(--brand-color);
-   
   }
   
   .container__text {
@@ -43,10 +44,10 @@
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    margin-right: 30px;
+    // margin-right: 30px;
     width: 450px;
     height: 50px;
-    margin-bottom: 75px;
+    // margin-bottom: 75px;
     color: var(--link-color);
     display: flex;
     margin: auto;

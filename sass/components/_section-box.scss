@@ -9,14 +9,16 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 28px;
+line-height: 33px;
+    // font-size: 36px;
+    // line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
   }
   
   .section-box {
-    padding-top: 94px;
+    // padding-top: 94px;
     margin-bottom: 50px;
     fill: #afb1b8;
   }
@@ -45,14 +47,18 @@
   }
   
   .section-box__list {
+    max-width: var(--mobile-width);
     display: flex;
     list-style-type: none;
     justify-content: center;
-    padding-bottom: 94px;
+   align-items: center;
+   margin: auto;
+    // padding-bottom: 94px;
     flex-wrap: wrap;
     // justify-content: space-between;
     // align-content: center;
     // justify-content: center;
     // list-style-type: none;
     gap: 30px;
+    padding-bottom: 30px;
   }
