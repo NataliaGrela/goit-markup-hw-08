@@ -1,6 +1,10 @@
 
 .container {
     padding-top: 94px;
+    max-width: var(--mobile-width);
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   
   .container__list {
@@ -35,6 +39,9 @@
     text-transform: uppercase;
     margin-bottom: 10px;
     color: var(--brand-color);
+    min-width: var(--mobile-width);
+    margin: auto;
+    margin-bottom: 10px;
   }
   
   .container__text {

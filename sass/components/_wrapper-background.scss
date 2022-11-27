@@ -27,6 +27,14 @@ letter-spacing: 0.06em;
       url('./../images/index_img/background-title.jpg');
       background-size: cover;
   }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .wrapper__background {
+    background-image: url('./../images/index_img/background-title2x.jpg');
+  }
+}
   
   .btn {
     background: var(--item-color);
