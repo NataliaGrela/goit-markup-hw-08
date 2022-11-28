@@ -33,6 +33,10 @@
   fill: var(--brand-color);
 }
 
+.page-header__icon {
+  transform: translateX(0);
+}
+
 .page-header__icon:focus,
 .page-header__icon:hover {
   fill: var(--item-color);
@@ -42,9 +46,4 @@
   border: none;
 }
 
-
-// .page-header__btn:focus,
-// .page-header__btn:hover {
-//   fill: var(--item-color);
-// }
 

@@ -34,32 +34,16 @@
 
 
           <div class="page-header__menu">
-            <button type="button" class="page-header__btn">
-              <svg  width="26" height="16">
-                <use class="page-header__icon" href="./images/icons.svg#icon-header-menu"></use>
+            <div class="header__link-logo">
+    
+              <svg width="26" height="16">
+                <use class="page-header__icon js-open-menu" href="./images/icons.svg#icon-header-menu"></use>
               </svg>
-            <!-- </button>
-            <button type="button">
-              <svg height="11" width="11">
-                <use href="./images/icons.svg#icon-Vector"></use>
-              </svg>
-            </button> -->
+         
+          </div>
+        
           </div>
          
-        
-         <!-- mobile menu -->
-    <!-- <div class="mobile-menu d-none">
-      <button class="toggle-menu">X</button>
-      <button type="button" class="modal__close-button" data-modal-close>
-        <svg height="11" width="11">
-          <use href="./images/icons.svg#icon-Vector"></use>
-        </svg>
-      </button>
-    </div>
-  </div>
-  <script src="./js/mobile-menu.js"></script>
-    </div> -->
-    <!-- mobile menu ends -->
 
           <ul class="site-nav">
             <li>
@@ -545,6 +529,80 @@
         </div>
       </address>
     </footer>
+
+
+    <div class="mobile-menu js-menu-container">
+    <svg class="mobile-menu__close" height="18.67" width="18.67">
+      <use class="js-close-menu" href="./images/icons.svg#icon-Vector"></use>
+    </svg>
+
+
+    <ul class="mobile-menu__list">
+  
+      <li>
+        <a class="mobile-menu__primary" href="./index.html">Agencja</a>
+      </li>
+
+      <li>
+        <a class="mobile-menu__secondary" href="./portfolio.html"
+          >Portfolio</a
+        >
+      </li>
+
+      <li><a class="mobile-menu__secondary" href="/Kontakt">Kontakt</a></li>
+    </ul>
+
+  <ul class="mobile-menu__contact ">
+    <li>
+      <a class="mobile-menu__contact--mail" href="mailto:info@devstudio.com"
+        >info@devastudio.com</a>
+    </li>
+    <li>
+      <a class="mobile-menu__contact--tel" href="tel:+48111111111"
+        >+48 111 111 111</a>
+    </li>
+  </ul>
+
+  
+  <ul class="mobile-menu__social ">
+    <li>
+      <div class="mobile-menu__social-box">
+      <a class="mobile-menu__social--item" href="https://www.instagram.com/"
+        >Instagram</a>   
+        <div class="mobile-menu__social--line"></div>
+      </div>
+
+    </li>
+    <li>
+      <div class="mobile-menu__social-box">
+      <a class="mobile-menu__social--item" href="https://twitter.com/"
+        >Twitter</a> 
+        <div class="mobile-menu__social--line"></div>
+        </div>
+   
+    </li>
+    <li>
+      <div class="mobile-menu__social-box">
+      <a class="mobile-menu__social--item" href="https://www.facebook.com/"
+        >Facebook</a> 
+        <div class="mobile-menu__social--line"></div>
+      </div>
+   
+    </li>
+    <li>
+      <div class="mobile-menu__social-box-last">
+      <a class="mobile-menu__social--item" href="https://likedin.com/"
+        >Linkedin</a> 
+        <div class="mobile-menu__social--line-last"></div>
+      </div>
+        </svg>
+    </li>
+  </ul>
+  <script src="./js/mobile-menu.js"></script>
+<script src=“https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js”></script>
+</div>
+
+
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
