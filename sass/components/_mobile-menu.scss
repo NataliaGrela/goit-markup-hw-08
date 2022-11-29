@@ -7,11 +7,14 @@
  display: flex;
  flex-direction: column;
  margin: auto;
-  position: relative;
+  position: fixed;
   transform: translateX(100%);
 transition: transform 250ms ease-in-out
 }
 
+.mobile-menu__box {
+  position: relative;
+}
 .mobile-menu__close {
   position: absolute;
   right: 21px;
