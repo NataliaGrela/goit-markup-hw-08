@@ -28,27 +28,24 @@
       <div class="page-header">
         <nav>
           <div class="page-header__navigation">
-          <a class="logo" href="./index.html"
-            >Web<span class="logo__accent">studio</span></a
-          >
+            <a class="logo" href="./index.html"
+              >Web<span class="logo__accent">studio</span></a
+            >
 
-
-          <div class="page-header__menu">
-            <div class="header__link-logo">
-    
-              <svg width="26" height="16">
-                <use class="page-header__icon js-open-menu" href="./images/icons.svg#icon-header-menu"></use>
-              </svg>
-         
+            <div class="page-header__menu">
+              <div class="header__link-logo">
+                <svg width="26" height="16">
+                  <use
+                    class="page-header__icon js-open-menu"
+                    href="./images/icons.svg#icon-header-menu"
+                  ></use>
+                </svg>
+              </div>
+            </div>
           </div>
-        
-          </div>
-         
 
           <ul class="site-nav">
-            <li>
-          
-            </li>
+            <li></li>
 
             <li>
               <a class="site-nav__primary" href="./index.html">Agencja</a>
@@ -63,6 +60,7 @@
             <li><a class="site-nav__secondary" href="/Kontakt">Kontakt</a></li>
           </ul>
         </nav>
+
         <ul class="link site-nav">
           <li>
             <a class="site-nav__contact" href="mailto:info@devstudio.com"
@@ -96,12 +94,11 @@
 
     <main>
       <div class="wrapper wrapper__background">
-
         <h1 class="wrapper">
           EFEKTYWNE ROZWIĄZANIA <br />
           DLA WASZEGO BIZNESU
         </h1>
-    
+
         <button type="button" class="btn" data-modal-open>Zamów usługę</button>
       </div>
 
@@ -206,8 +203,9 @@
           <li class="team__photo">
             <figure class="team-photo__position">
               <img
-                src="./images/index_img/product_designer.jpg"
-                alt="zdjęcie John Doe"
+                src="./images/index_img/product_designer-mobile-1x.jpg"
+                srcset="./images/index_img/product_designer-mobile-2x@2x.jpg"
+                alt="zdjęcie Product Designer"
                 width="450"
                 height="460"
               />
@@ -254,8 +252,11 @@
             <div class="team__photo">
               <figure class="team-photo__position">
                 <img
-                  src="./images/index_img/frontend_developer.jpg"
-                  alt="zdjęcie John Doe2"
+                  src="./images/index_img/frontend_developer-mobile-1x.jpg"
+                  srcset="
+                    ./images/index_img/frontend_developer-mobile-2x@2x.jpg
+                  "
+                  alt="zdjęcie Frontend Developer"
                   width="450"
                   height="460"
                 />
@@ -303,8 +304,9 @@
             <div class="team__photo">
               <figure class="team__photo--position">
                 <img
-                  src="./images/index_img/marketing.jpg"
-                  alt="zdjęcie John Doe3"
+                  src="./images/index_img/marketing-mobile-1x.jpg"
+                  srcset="./images/index_img/marketing-mobile-2x@2x.jpg"
+                  alt="zdjęcie Marketing"
                   width="450"
                   height="460"
                 />
@@ -352,8 +354,9 @@
             <div class="team__photo">
               <figure class="team__photo--position">
                 <img
-                  src="./images/index_img/ui_designer.jpg"
-                  alt="zdjęcie John Doe4"
+                  src="./images/index_img/ui_designer-mobile-1x.jpg"
+                  srcset="./images/index_img/ui-designer-mobile-2x@2x.jpg"
+                  alt="zdjęcie UI Designer"
                   width="450"
                   height="460"
                 />
@@ -529,81 +532,86 @@
       </address>
     </footer>
 
-
     <div class="mobile-menu js-menu-container">
       <div class="mobile-menu__box">
-    <svg class="mobile-menu__close" height="18.67" width="18.67">
-      <use class="js-close-menu" href="./images/icons.svg#icon-Vector"></use>
-    </svg>
-
-
-    <ul class="mobile-menu__list">
-  
-      <li>
-        <a class="mobile-menu__primary" href="./index.html">Agencja</a>
-      </li>
-
-      <li>
-        <a class="mobile-menu__secondary" href="./portfolio.html"
-          >Portfolio</a
-        >
-      </li>
-
-      <li><a class="mobile-menu__secondary" href="/Kontakt">Kontakt</a></li>
-    </ul>
-
-  <ul class="mobile-menu__contact ">
-    <li>
-      <a class="mobile-menu__contact--mail" href="mailto:info@devstudio.com"
-        >info@devastudio.com</a>
-    </li>
-    <li>
-      <a class="mobile-menu__contact--tel" href="tel:+48111111111"
-        >+48 111 111 111</a>
-    </li>
-  </ul>
-
-  
-  <ul class="mobile-menu__social ">
-    <li>
-      <div class="mobile-menu__social-box">
-      <a class="mobile-menu__social--item" href="https://www.instagram.com/"
-        >Instagram</a>   
-        <div class="mobile-menu__social--line"></div>
-      </div>
-
-    </li>
-    <li>
-      <div class="mobile-menu__social-box">
-      <a class="mobile-menu__social--item" href="https://twitter.com/"
-        >Twitter</a> 
-        <div class="mobile-menu__social--line"></div>
-        </div>
-   
-    </li>
-    <li>
-      <div class="mobile-menu__social-box">
-      <a class="mobile-menu__social--item" href="https://www.facebook.com/"
-        >Facebook</a> 
-        <div class="mobile-menu__social--line"></div>
-      </div>
-   
-    </li>
-    <li>
-      <div class="mobile-menu__social-box-last">
-      <a class="mobile-menu__social--item" href="https://likedin.com/"
-        >Linkedin</a> 
-        <div class="mobile-menu__social--line-last"></div>
-      </div>
+        <svg class="mobile-menu__close" height="18.67" width="18.67">
+          <use
+            class="js-close-menu"
+            href="./images/icons.svg#icon-Vector"
+          ></use>
         </svg>
-    </li>
-  </ul>
-  <script src="./js/mobile-menu.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"></script>
-</div>
-</div>
 
+        <ul class="mobile-menu__list">
+          <li>
+            <a class="mobile-menu__primary" href="./index.html">Agencja</a>
+          </li>
 
+          <li>
+            <a class="mobile-menu__secondary" href="./portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+
+          <li><a class="mobile-menu__secondary" href="/Kontakt">Kontakt</a></li>
+        </ul>
+
+        <ul class="mobile-menu__contact">
+          <li>
+            <a
+              class="mobile-menu__contact--mail"
+              href="mailto:info@devstudio.com"
+              >info@devastudio.com</a
+            >
+          </li>
+          <li>
+            <a class="mobile-menu__contact--tel" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
+          </li>
+        </ul>
+
+        <ul class="mobile-menu__social">
+          <li>
+            <div class="mobile-menu__social-box">
+              <a
+                class="mobile-menu__social--item"
+                href="https://www.instagram.com/"
+                >Instagram</a
+              >
+              <div class="mobile-menu__social--line"></div>
+            </div>
+          </li>
+          <li>
+            <div class="mobile-menu__social-box">
+              <a class="mobile-menu__social--item" href="https://twitter.com/"
+                >Twitter</a
+              >
+              <div class="mobile-menu__social--line"></div>
+            </div>
+          </li>
+          <li>
+            <div class="mobile-menu__social-box">
+              <a
+                class="mobile-menu__social--item"
+                href="https://www.facebook.com/"
+                >Facebook</a
+              >
+              <div class="mobile-menu__social--line"></div>
+            </div>
+          </li>
+          <li>
+            <div class="mobile-menu__social-box-last">
+              <a class="mobile-menu__social--item" href="https://likedin.com/"
+                >Linkedin</a
+              >
+              <div class="mobile-menu__social--line-last"></div>
+            </div>
+          </li>
+        </ul>
+        <script src="./js/mobile-menu.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"></script>
+      </div>
+    </div>
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -655,7 +663,7 @@
             <textarea
               class="fieldset__comment--size"
               name="modal-box-comment"
-              id="fieldset__comment"
+              id="fieldset-comment"
               placeholder="Wprowadź tekst"
             ></textarea>
           </fieldset>
