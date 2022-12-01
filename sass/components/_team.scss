@@ -119,8 +119,9 @@ margin: 0;
   }
 
   .team__list {
+ max-height: var(--mobile-width);
   margin: auto;
-  display: block;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: center;
@@ -136,4 +137,6 @@ margin: 0;
   width: 354px;
   height: 536px;
 }
+
+
 }
