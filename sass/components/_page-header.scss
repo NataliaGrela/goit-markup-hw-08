@@ -62,7 +62,8 @@
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0 15px;
   }
 
   .page-header__border {
@@ -74,9 +75,9 @@
     display: none;
   }
 
-  .page-header__navigation {
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0;
-  }
+  // .page-header__navigation {
+  //   justify-content: flex-start;
+  //   align-items: center;
+  //   margin: 0;
+  // }
 }
