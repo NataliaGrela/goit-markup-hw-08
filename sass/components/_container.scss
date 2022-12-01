@@ -65,6 +65,10 @@
   @media (min-width: 768px) {
     .container {
       max-width: var(--tablet-width); 
+      display: flex;
+      align-items: center;
+      margin-left: 0;
+      margin-right: 0;
     }
 
     .container__icon {
@@ -85,10 +89,12 @@
   flex-wrap: wrap;
     padding-bottom: 94px;
     flex-wrap: wrap;
-    gap: 30px;
+
     padding-bottom: 30px;
     align-items: center;
     margin: auto;
+    padding-left: 0;
+    padding-right: 0;
   }
   }
 
