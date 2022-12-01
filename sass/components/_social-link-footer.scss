@@ -67,3 +67,15 @@
     }
   }
   
+@media (min-width: 768px) {
+  .social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    // margin: auto;
+    // margin-left: 50px;
+    // margin-right: 40px;
+  }
+}

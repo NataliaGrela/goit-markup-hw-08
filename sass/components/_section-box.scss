@@ -32,7 +32,6 @@
     font-size: 28px;
     line-height: 33px;
     letter-spacing: .03em;
-    padding-top: 60px;
   }
   
   .section-box__icon--border {
@@ -66,5 +65,37 @@
     // padding-bottom: 94px;
     flex-wrap: wrap;
     gap: 30px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
+  }
+
+
+
+  @media (min-width: 768px) {
+
+    .section-box {
+      max-width: var(--tablet-width);
+    } 
+    
+    .section-box__list {
+    min-width: var(--tablet-width);
+    display: flex;
+    list-style-type: none;
+  justify-content: center;
+    // padding-bottom: 94px;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    margin: auto;
+  }
+
+  .section-box__title {
+    // font-size: 36px;
+    // line-height: 42px;
+    width: var(--tablet-width);
+}
+
+.page-color {
+  min-width: var(--tablet-width);
+}
   }

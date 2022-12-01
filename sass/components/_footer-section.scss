@@ -25,8 +25,8 @@
   letter-spacing: 0.03em;
   color: var(--item-color);
   display: flex;
- justify-content: center;
- margin-bottom: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
 
   &:hover,
   &:focus {
@@ -88,4 +88,104 @@ a.footer__contact {
 .footer__list {
   list-style-type: none;
   // margin-top: 20px;
+}
+
+
+
+@media (min-width: 768px) {
+  .footer {
+    min-width: var(--tablet-width);
+    display: flex;
+    align-items: flex-start;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-style: normal;
+    background: var(--third-background);
+  }
+
+  .footer__section {
+    max-width: var(--tablet-width);
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .footer__logo {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--item-color);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    &:hover,
+    &:focus {
+      color: var(--link-color);
+      transition-duration: var(--transition-duration);
+      transition-timing-function: var(--cubic-bezier);
+    }
+
+    &:hover .footer__logo--accent,
+    &:focus .footer__logo--accent {
+      color: var(--link-color);
+      transition-duration: var(--transition-duration);
+      transition-timing-function: var(--cubic-bezier);
+    }
+  }
+
+  .footer__logo--accent {
+    color: #ffffff;
+
+    &:hover,
+    &:focus {
+      color: var(--link-color);
+      transition-duration: var(--transition-duration);
+      transition-timing-function: var(--cubic-bezier);
+    }
+  }
+
+  .footer__data {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 9px;
+    display: flex;
+    justify-content: center;
+
+    &:hover,
+    &:focus {
+      color: var(--link-color);
+      transition-duration: var(--transition-duration);
+      transition-timing-function: var(--cubic-bezier);
+    }
+  }
+
+  a.footer__contact {
+    color: white;
+  }
+
+  .footer__contact:hover,
+  .footer__contact:focus {
+    color: rgba(255, 255, 255, 0.6);
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--cubic-bezier);
+  }
+
+  .footer__list {
+    list-style-type: none;
+    // margin-top: 20px;
+  }
 }
