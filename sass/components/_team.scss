@@ -111,3 +111,32 @@ margin: 0;
   color: var(--link-color);
   padding-top: 10px;
 }
+
+
+@media (min-width: 768px) {
+  .team {
+    min-width: var(--tablet-width);
+  }
+
+  .team__list {
+  margin: auto;
+  display: block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.team__title {
+  width: var(--tablet-width);
+}
+
+.team__photo {
+
+  width: 354px;
+  height: 536px;
+
+}
+
+}

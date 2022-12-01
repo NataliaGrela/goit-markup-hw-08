@@ -89,5 +89,13 @@
 .site-nav {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.site-nav__address {
+  display: block;
+ justify-content: flex-end;
+ margin-bottom: 0;
+ 
 }
 }
