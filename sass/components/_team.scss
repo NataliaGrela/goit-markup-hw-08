@@ -114,14 +114,15 @@
 @media (min-width: 768px) {
   .team {
     min-width: var(--tablet-width);
+    display: flex;
+    flex-direction: column;
   }
 
   .team__list {
-    max-height: var(--mobile-width);
-    margin: auto;
+    max-width: var(--tablet-width);
+    // margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-content: center;
     justify-content: center;
     gap: 30px;
