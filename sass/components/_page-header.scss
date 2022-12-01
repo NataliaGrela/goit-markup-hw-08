@@ -54,7 +54,7 @@
 @media (min-width: 768px) {
 
   .page-header {
-    width: 768px;
+   min-width: var(--tablet-width);
     padding-left: 15px;
     padding-right: 15px;
     height: 80px;
@@ -64,20 +64,29 @@
     display: flex;
     justify-content: space-between;
     padding: 0 15px;
+
+  }
+
+  // .page-header > nav {
+  //   display: flex;
+  // }
+
+  .page-header__nav {
+    display: flex;
+   
   }
 
   .page-header__border {
     min-width: var(--tablet-width);
-    display: inline;
   }
 
   .page-header__menu {
     display: none;
   }
 
-  // .page-header__navigation {
-  //   justify-content: flex-start;
-  //   align-items: center;
-  //   margin: 0;
-  // }
+  .page-header__navigation {
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+  }
 }
