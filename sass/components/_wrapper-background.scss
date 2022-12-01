@@ -75,7 +75,7 @@
 
 .wrapper__background {
   min-width: var(--tablet-width);
-  height: 768px;
+
   width: 400px;
   // padding-top: 200px;
   // padding-bottom: 200px;
@@ -85,6 +85,8 @@
     ),
     url("./../images/index_img/background-title-tablet-1x.jpg");  
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media (min-device-pixel-ratio: 2),

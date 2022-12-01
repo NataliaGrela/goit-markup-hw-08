@@ -71,6 +71,7 @@
 @media (min-width: 768px) {
   .section-box {
     max-width: var(--tablet-width);
+    margin-bottom: 60px;
   }
 
   .section-box__list {
@@ -90,6 +91,7 @@
     // font-size: 36px;
     // line-height: 42px;
     width: var(--tablet-width);
+    margin-top: 100px;
   }
 
   .page-color {
