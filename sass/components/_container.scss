@@ -60,7 +60,7 @@
 }
 
 @media (min-width: 768px) {
-  
+
   .container {
     max-width: var(--tablet-width);
     display: flex;
@@ -85,8 +85,7 @@
     list-style-type: none;
     justify-content: center;
     flex-wrap: wrap;
-    padding-bottom: 94px;
-    flex-wrap: wrap;
+    // padding-bottom: 94px;
     padding-bottom: 30px;
     align-items: center;
     margin: auto;
@@ -95,7 +94,7 @@
   }
 
   .container__list--item {
-    max-width: var(--tablet-width);
+    max-width: 354px;
     display: flex;
     flex-direction: column;
     justify-content: center;
