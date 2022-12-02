@@ -112,6 +112,11 @@
     width: 354px;
     height: 536px;
   }
+
+  img {
+    width: 354px;
+    height: 374px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -142,9 +147,8 @@
     height: 428px;
   }
 
-  img {
+  .team__photo img {
     width: 270px;
     height: 260px;
-    margin-top: 0;
   }
 }
