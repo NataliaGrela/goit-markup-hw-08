@@ -22,14 +22,15 @@
   justify-content: center;
   letter-spacing: 0.03em;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
   line-height: 33px;
   letter-spacing: 0.03em;
-  color: var(--brand-color)
+  color: var(--brand-color);
+  padding-top: 78px;
 }
 
 .section-box__icon--border {
@@ -97,7 +98,6 @@
   }
 }
 
-
 @media (min-width: 1200px) {
   .section-box {
     max-width: var(--desktop-width);
@@ -106,7 +106,6 @@
 
   .section-box__list {
     min-width: var(--desktop-width);
-  
   }
 
   .section-box__title {

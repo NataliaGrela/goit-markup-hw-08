@@ -81,7 +81,7 @@
 
   .social__title {
     padding-top: 0;
-}
+  }
 }
 
 @media (min-width: 1200px) {
@@ -89,10 +89,9 @@
     padding-top: 12px;
     margin-left: 70px;
     margin-right: 70px;
-    }
-
-    .social__title {
-      margin-left: 0;
-    }
   }
 
+  .social__title {
+    margin-left: 0;
+  }
+}

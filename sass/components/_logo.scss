@@ -35,17 +35,16 @@
   }
 }
 
-
 @media (min-width: 768px) {
   .logo {
     display: flex;
-  justify-content: flex-start;
-  margin: 0;
-  padding: 0;
-  margin-right: 80px;
-}
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    margin-right: 80px;
+  }
 
-.site-nav__contact {
-  margin-bottom: 0;
-}
+  .site-nav__contact {
+    margin-bottom: 0;
+  }
 }

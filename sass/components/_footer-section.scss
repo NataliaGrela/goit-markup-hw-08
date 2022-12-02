@@ -196,14 +196,14 @@ a.footer__contact {
   .footer__section {
     max-width: var(--desktop-width);
     align-items: flex-start;
-align-content: space-between;
-}
+    align-content: space-between;
+  }
 
-.footer__logo {
-  justify-content: flex-start;
-}
+  .footer__logo {
+    justify-content: flex-start;
+  }
 
-.footer__data {
-  justify-content: flex-start;
-}
+  .footer__data {
+    justify-content: flex-start;
+  }
 }

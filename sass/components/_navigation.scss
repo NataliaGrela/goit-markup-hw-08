@@ -113,8 +113,12 @@
 }
 
 @media (min-width: 1200px) {
- 
   .site-nav__address {
     display: flex;
+    margin-left: 200px;
+  }
+
+  .site-nav__contact {
+    margin-bottom: 0;
   }
 }
