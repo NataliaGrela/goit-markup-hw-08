@@ -111,3 +111,10 @@
     margin-right: 0;
   }
 }
+
+@media (min-width: 1200px) {
+ 
+  .site-nav__address {
+    display: flex;
+  }
+}

@@ -67,13 +67,8 @@
 
   }
 
-  // .page-header > nav {
-  //   display: flex;
-  // }
-
   .page-header__nav {
     display: flex;
-   
   }
 
   .page-header__border {
@@ -89,4 +84,20 @@
     align-items: center;
     margin: 0;
   }
+}
+
+
+@media (min-width: 1200px) {
+
+  .page-header {
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+    margin-left: 100px;
+ 
+  }
+  
+  .page-header__border {
+    min-width: var(--desktop-width);
+}
 }

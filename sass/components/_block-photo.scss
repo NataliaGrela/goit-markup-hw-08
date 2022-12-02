@@ -37,3 +37,28 @@
   text-align: center;
   padding: 27px 90px;
 }
+
+@media (min-width: 1200px) {
+  .block-photo {
+    gap: 30px;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    // align-items: flex-start;
+  }
+  
+  .block-photo__title {
+    display: flex;
+    justify-content: center;
+    padding-top: 64px;
+    padding-bottom: 50px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--brand-color)
+  } 
+}

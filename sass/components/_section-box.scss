@@ -6,7 +6,6 @@
 
 .section-box {
   max-width: var(--mobile-width);
-  // padding-top: 94px;
   margin-bottom: 50px;
   fill: #afb1b8;
   margin: auto;
@@ -17,8 +16,6 @@
 }
 
 .section-box__title {
-  // font-size: 36px;
-  // line-height: 42px;
   width: var(--mobile-width);
   display: flex;
   text-align: center;
@@ -32,6 +29,7 @@
   font-size: 28px;
   line-height: 33px;
   letter-spacing: 0.03em;
+  color: var(--brand-color)
 }
 
 .section-box__icon--border {
@@ -96,5 +94,29 @@
 
   .page-color {
     min-width: var(--tablet-width);
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .section-box {
+    max-width: var(--desktop-width);
+    margin-bottom: 60px;
+  }
+
+  .section-box__list {
+    min-width: var(--desktop-width);
+  
+  }
+
+  .section-box__title {
+    font-size: 36px;
+    line-height: 42px;
+    width: var(--desktop-width);
+    margin-top: 100px;
+  }
+
+  .page-color {
+    min-width: var(--desktop-width);
   }
 }

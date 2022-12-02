@@ -12,21 +12,7 @@
   padding-bottom: 0;
 }
 
-// .title__color {
-//   color: var(--brand-color);
-// }
-
 .team__title {
-  //   margin-bottom: 50px;
-  //   font-family: "Roboto";
-  //   font-style: normal;
-  //   font-weight: 700;
-  //   // font-size: 36px;
-  //   // line-height: 42px;
-  //   text-align: center;
-  //   letter-spacing: 0.03em;
-  //   font-size: 28px;
-  // line-height: 33px;
   width: var(--mobile-width);
   display: flex;
   margin: auto;
@@ -41,13 +27,12 @@
   font-size: 28px;
   line-height: 33px;
   letter-spacing: 0.03em;
+  padding-top: 60px;
+  color: var(--brand-color);
 }
 
 .team__list {
   max-width: var(--tablet-width);
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
   list-style-type: none;
   margin: auto;
   display: flex;
@@ -91,16 +76,6 @@
 }
 
 .team__occupation {
-  // font-family: "Roboto";
-  // font-style: normal;
-  // font-weight: 400;
-  // font-size: 16px;
-  // line-height: 19px;
-  // text-align: center;
-  // letter-spacing: 0.03em;
-  // color: var(--link-color);
-  // margin-top: 10px;
-  // margin-bottom: 16px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -127,8 +102,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    // align-content: center;
-    // justify-content: center;
   }
 
   .team__title {
@@ -138,5 +111,40 @@
   .team__photo {
     width: 354px;
     height: 536px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .team {
+    min-width: var(--desktop-width);
+  }
+
+  .team__list {
+    min-width: var(--desktop-width);
+  }
+
+  .team__title {
+    width: var(--desktop-width);
+    margin-bottom: 50px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-bottom: 50px;
+    padding-top: 188px;
+  }
+
+  .team__photo {
+    width: 270px;
+    height: 428px;
+  }
+
+  img {
+    width: 270px;
+    height: 260px;
+    margin-top: 0;
   }
 }
