@@ -54,16 +54,16 @@
   height: 622px;
   margin-bottom: 30px;
   margin-top: 0;
+
+  & img {
+    width: 450px;
+    height: 460px;
+  }
 }
 
 .team-photo__position {
   width: 450px;
   height: 622px;
-}
-
-.team__photo img {
-  width: 450px;
-  height: 460px;
 }
 
 .team__name {
@@ -114,11 +114,11 @@
   .team__photo {
     width: 354px;
     height: 536px;
-  }
 
-  .team__photo img {
-    width: 354px;
-    height: 374px;
+    & img {
+      width: 354px;
+      height: 374px;
+    }
   }
 
   .team__photo--position {
@@ -154,11 +154,11 @@
   .team__photo {
     width: 270px;
     height: 428px;
-  }
 
-  .team__photo img {
-    width: 270px;
-    height: 260px;
+    & img {
+      width: 270px;
+      height: 260px;
+    }
   }
 
   .team__photo--position {

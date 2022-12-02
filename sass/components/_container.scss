@@ -28,7 +28,6 @@
 .container__title {
   display: flex;
   justify-content: center;
-  // padding-top: 30px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -50,10 +49,8 @@
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  // margin-right: 30px;
   width: 450px;
   height: 50px;
-  // margin-bottom: 75px;
   color: var(--link-color);
   display: flex;
   margin: auto;
@@ -65,8 +62,6 @@
     display: flex;
     align-items: center;
     margin: 0 auto;
-    // margin-left: 0;
-    // margin-right: 0;
   }
 
   .container__icon {
@@ -84,7 +79,6 @@
     list-style-type: none;
     justify-content: center;
     flex-wrap: wrap;
-    // padding-bottom: 94px;
     padding-bottom: 30px;
     align-items: center;
     margin: auto;
@@ -115,11 +109,6 @@
 @media (min-width: 1200px) {
   .container {
     max-width: var(--desktop-width);
-    // display: flex;
-    // align-items: center;
-    // margin: 0 auto;
-    // margin-left: 0;
-    // margin-right: 0;
   }
 
   .container__icon {
