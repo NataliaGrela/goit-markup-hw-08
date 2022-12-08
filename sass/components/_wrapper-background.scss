@@ -26,6 +26,19 @@
       rgba(47, 48, 58, 0.4)),
     url("./../images/index_img/background-title-mobile-1x.jpg");
   background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  max-width: var(--mobile-width);
+  margin: 0 auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 @media (min-device-pixel-ratio: 2),
