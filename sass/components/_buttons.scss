@@ -1,5 +1,5 @@
 .buttons {
-  width: var(--mobile-width);
+  // width: var(--mobile-width);
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
@@ -37,7 +37,7 @@
 @media (min-width: 768px) {
   .container {
     padding-top: 94px;
-    max-width: var(--mobile-width);
+    // max-width: var(--mobile-width);
     margin: auto;
     display: block;
     padding-left: 15px;
