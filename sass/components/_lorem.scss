@@ -1,4 +1,4 @@
-.container {
+.lorem  {
   padding-top: 94px;
   max-width: var(--mobile-width);
   margin: auto;
@@ -6,15 +6,16 @@
   padding-right: 15px;
 }
 
-.container__list {
+.lorem__list {
   list-style-type: none;
   justify-content: center;
   align-items: center;
   margin: auto;
 }
 
-.container__icon {
-  width: 450px;
+.lorem__icon {
+  width: 90vw;
+  max-width: 450px;
   height: 120px;
   background-color: #f5f4fa;
   display: flex;
@@ -25,7 +26,7 @@
   margin-top: 30px;
 }
 
-.container__title {
+.lorem__title {
   display: flex;
   justify-content: center;
   font-family: "Roboto";
@@ -42,14 +43,15 @@
   margin-bottom: 10px;
 }
 
-.container__text {
+.lorem__text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  width: 450px;
+  width: 90vw;
+  max-width: 450px;
   height: 50px;
   color: var(--link-color);
   display: flex;
@@ -57,24 +59,26 @@
 }
 
 @media (min-width: 768px) {
-  .container {
+  .lorem {
     max-width: var(--tablet-width);
     display: flex;
     align-items: center;
     margin: 0 auto;
   }
 
-  .container__icon {
-    width: 354px;
+  .lorem__icon {
+    width: 45vw;
+    max-width: 354px;
   }
 
-  .container__text {
-    width: 354px;
+  .lorem__text {
+    width: 45vw;
+    max-width: 354px;
     margin: 0;
     padding: 0;
   }
 
-  .container__list {
+  .lorem__list {
     display: flex;
     list-style-type: none;
     justify-content: center;
@@ -87,7 +91,7 @@
     gap: 20px;
   }
 
-  .container__list--item {
+  .lorem__list--item {
     max-width: 354px;
     display: flex;
     flex-direction: column;
@@ -100,27 +104,27 @@
     padding-right: 0;
   }
 
-  .container__title {
+  .lorem__title {
     display: flex;
     justify-content: flex-start;
   }
 }
 
 @media (min-width: 1200px) {
-  .container {
+  .lorem {
     max-width: var(--desktop-width);
   }
 
-  .container__icon {
+  .lorem__icon {
     width: 270px;
   }
 
-  .container__text {
+  .lorem__text {
     width: 270px;
     height: 75px;
   }
 
-  .container__list--item {
+  .lorem__list--item {
     max-width: 270px;
     display: flex;
     flex-direction: column;
@@ -129,7 +133,7 @@
     margin: auto;
   }
 
-  .container__title {
+  .lorem__title {
     min-width: 270px;
     justify-content: center;
   }

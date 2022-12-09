@@ -1,6 +1,6 @@
 .team {
   padding-top: 0;
-  min-width: var(--mobile-width);
+  // min-width: var(--mobile-width);
   padding-left: 15px;
   padding-right: 15px;
   margin: auto;
@@ -9,7 +9,7 @@
 }
 
 .team__title {
-  width: var(--mobile-width);
+  // width: 100%;
   display: flex;
   margin: auto;
   text-align: center;
@@ -49,19 +49,22 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  width: 450px;
+  width: 90vw;
+  max-width: 450px;
   height: 622px;
   margin-bottom: 30px;
   margin-top: 0;
 }
 
 .team__photo img {
-  width: 450px;
+  width: 90vw;
+  max-width: 450px;
   height: 460px;
 }
 
 .team-photo__position {
-  width: 450px;
+  width: 90vw;
+  max-width: 450px;
   height: 622px;
 }
 
