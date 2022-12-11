@@ -111,6 +111,7 @@
 @media (min-width: 1200px) {
   .gallery {
     min-width: var(--desktop-width);
+    max-width: 1400px;
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
