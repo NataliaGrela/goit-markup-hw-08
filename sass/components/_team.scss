@@ -49,24 +49,31 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  width: 90vw;
-  max-width: 450px;
-  height: 622px;
+  width: 60vw;
+  max-height: 622px;
   margin-bottom: 30px;
   margin-top: 0;
+  padding-bottom: 2vw;
 }
 
-.team__photo img {
-  width: 90vw;
-  max-width: 450px;
-  height: 460px;
+.team__photo--size {
+  width: 100%
 }
 
-.team-photo__position {
-  width: 90vw;
-  max-width: 450px;
-  height: 622px;
+.team__photo--position {
+  width: 100%;
 }
+// .team__photo img {
+//   width: 90vw;
+//   max-width: 450px;
+//   height: 460px;
+// }
+
+// .team-photo__position {
+//   width: 90vw;
+//   max-width: 450px;
+//   height: 622px;
+// }
 
 .team__name {
   font-family: "Roboto";
@@ -93,39 +100,40 @@
 
 @media (min-width: 768px) {
   .team {
-    min-width: var(--tablet-width);
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding-bottom: 50px;
   }
 
   .team__list {
-    min-width: var(--tablet-width);
+   width: 100%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
   }
 
   .team__title {
-    width: var(--tablet-width);
+    width: 100%;
   }
 
   .team__photo {
-    width: 354px;
-    height: 536px;
+    width: 29vw;
+    max-height: 536px;
   }
 
-  .team__photo img {
-    width: 354px;
-    height: 374px;
+  .team__photo--size {
+    width: 29vw;
+    max-height: 536px;
   }
 
   .team__photo--position {
-    width: 354px;
-    height: 536px;
+    width: 29vw;
+    max-height: 536px;
   }
 }
 
@@ -135,7 +143,8 @@
   }
 
   .team__list {
-    min-width: var(--desktop-width);
+    width: 1200px;
+    flex-wrap: nowrap;
   }
 
   .team__title {
@@ -153,18 +162,19 @@
     margin-bottom: 0;
   }
 
+
   .team__photo {
-    width: 270px;
-    height: 428px;
+    width: 20vw;
+    min-height: 428px;
   }
 
-  .team__photo img {
-    width: 270px;
-    height: 260px;
+  .team__photo--size {
+    width: 20vw;
+    min-height: 260px;
   }
 
   .team__photo--position {
-    width: 270px;
-    height: 428px;
+    width: 20vw;
+    min-height: 428px;
   }
 }

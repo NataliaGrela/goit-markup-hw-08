@@ -17,7 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     />
     <link href="./css/main.min.css" rel="stylesheet" />
- 
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css"
@@ -27,32 +27,28 @@
   <body>
     <header class="page-header__border">
       <div class="page-header">
+        <nav class="page-header__nav">
+          <div class="page-header__navigation">
+            <a class="logo" href="./index.html"
+              >Web<span class="logo__accent">studio</span></a
+            >
 
-          <nav class="page-header__nav">
-            <div class="page-header__navigation">
-              <a class="logo" href="./index.html"
-                >Web<span class="logo__accent">studio</span></a
-              >
-  
-              <div class="page-header__menu">
-                <button class="header__link-logo js-open-menu">
-                  <svg class="page-header__icon" width="26" height="16">
-                    <use
-                      
-                      href="./images/icons.svg#icon-header-menu"
-                    ></use>
-                  </svg>
-                </button>
-              </div>
+            <div class="page-header__menu">
+              <button class="header__link-logo js-open-menu">
+                <svg class="page-header__icon" width="26" height="16">
+                  <use href="./images/icons.svg#icon-header-menu"></use>
+                </svg>
+              </button>
             </div>
-
-
-
+          </div>
 
           <ul class="site-nav site-nav__choice">
-          
             <li>
-              <a class="site-nav__secondary site-nav__secondary--option" href="./index.html">Agencja</a>
+              <a
+                class="site-nav__secondary site-nav__secondary--option"
+                href="./index.html"
+                >Agencja</a
+              >
             </li>
             <li>
               <a class="site-nav__primary" href="./portfolio.html">Portfolio</a>
@@ -94,41 +90,64 @@
     <main class="container">
       <ul class="buttons">
         <li>
-          <button type="button" class="buttons__data">
-            Wszystkie
-          </button>
+          <button type="button" class="buttons__data">Wszystkie</button>
         </li>
         <li>
-          <button type="button" class="buttons__data">
-            Strony
-          </button>
+          <button type="button" class="buttons__data">Strony</button>
         </li>
         <li>
-          <button type="button" class="buttons__data">
-            Aplikacje
-          </button>
+          <button type="button" class="buttons__data">Aplikacje</button>
         </li>
         <li>
-          <button type="button" class="buttons__data">
-            Dizajn
-          </button>
+          <button type="button" class="buttons__data">Dizajn</button>
         </li>
         <li>
-          <button type="button" class="buttons__data">
-            Marketing
-          </button>
+          <button type="button" class="buttons__data">Marketing</button>
         </li>
       </ul>
 
       <ul class="gallery">
         <li class="gallery__accent">
           <div class="gallery__box">
-            <img
-              src="./images/portfolio_img/technocrack.jpg"
-              alt="laptop"
-              width="370"
-              height="294"
-            />
+            <div>
+              <picture>
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/portfolio_img/technotrack-mobile-1x.jpg    1x,
+                    ./images/portfolio_img/technotrack-mobile-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 756px)"
+                  srcset="
+                    ./images/portfolio_img/technotrack-tablet-1x.jpg    1x,
+                    ./images/portfolio_img/technotrack-tablet-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/portfolio_img/technotrack-desktop-1x.jpg    1x,
+                    ./images/portfolio_img/technotrack-desktop-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <img
+                class="gallery__picture"
+                  src="./images/portfolio_img/technocrack.jpg"
+                  alt="laptop"
+                  width="370"
+                  height="294"
+                />
+              </picture>
+            </div>
+
             <div class="gallery__overlay">
               <p class="gallery__overlay--text">
                 Technotrack jest popularną platformą wykorzystywaną do
@@ -144,12 +163,44 @@
 
         <li class="gallery__accent">
           <div class="gallery__box">
-            <img
-              src="./images/portfolio_img/graphic_new_orlean.jpg"
-              alt="nba"
-              width="370"
-              height="294"
-            />
+            <div>
+              <picture>
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/portfolio_img/graphic_new_orlean-mobile-1x.jpg    1x,
+                    ./images/portfolio_img/graphic_new_orlean-mobile-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 756px)"
+                  srcset="
+                    ./images/portfolio_img/graphic_new_orlean-tablet-1x.jpg    1x,
+                    ./images/portfolio_img/graphic_new_orlean-tablet-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/portfolio_img/graphic_new_orlean-desktop-1x.jpg    1x,
+                    ./images/portfolio_img/graphic_new_orlean-desktop-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                class="gallery__picture"
+                  src="./images/portfolio_img/graphic_new_orlean.jpg"
+                  alt="nba"
+                  width="370"
+                  height="294"
+                />
+              </picture>
+            </div>
+
             <div class="gallery__overlay">
               <p class="gallery__overlay--text">
                 Technotrack jest popularną platformą wykorzystywaną do
@@ -165,12 +216,44 @@
 
         <li class="gallery__accent">
           <div class="gallery__box">
-            <img
-              src="./images/portfolio_img/restaurant_seafood.jpg"
-              alt="restaurant's logo"
-              width="370"
-              height="294"
-            />
+            <div>
+              <picture>
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/portfolio_img/restaurant_seafood-mobile-1x.jpg    1x,
+                    ./images/portfolio_img/restaurant_seafood-mobile-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 756px)"
+                  srcset="
+                    ./images/portfolio_img/restaurant_seafood-tablet-1x.jpg    1x,
+                    ./images/portfolio_img/restaurant_seafood-tablet-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/portfolio_img/restaurant_seafood-desktop-1x.jpg    1x,
+                    ./images/portfolio_img/restaurant_seafood-desktop-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                class="gallery__picture"
+                  src="./images/portfolio_img/restaurant_seafood.jpg"
+                  alt="restaurant's logo"
+                  width="370"
+                  height="294"
+                />
+              </picture>
+            </div>
+
             <div class="gallery__overlay">
               <p class="gallery__overlay--text">
                 Technotrack jest popularną platformą wykorzystywaną do
@@ -186,12 +269,44 @@
 
         <li class="gallery__accent">
           <div class="gallery__box">
-            <img
-              src="./images/portfolio_img/project_prime.jpg"
-              alt="headphones"
-              width="370"
-              height="294"
-            />
+            <div>
+              <picture>
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/portfolio_img/project_prime-mobile-1x.jpg    1x,
+                    ./images/portfolio_img/project_prime-mobile-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 756px)"
+                  srcset="
+                    ./images/portfolio_img/project_prime-tablet-1x.jpg    1x,
+                    ./images/portfolio_img/project_prime-tablet-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/portfolio_img/project_prime-desktop-1x.jpg    1x,
+                    ./images/portfolio_img/project_prime-desktop-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                class="gallery__picture"
+                  src="./images/portfolio_img/project_prime.jpg"
+                  alt="headphones"
+                  width="370"
+                  height="294"
+                />
+              </picture>
+            </div>
+
             <div class="gallery__overlay">
               <p class="gallery__overlay--text">
                 Technotrack jest popularną platformą wykorzystywaną do
@@ -206,12 +321,44 @@
         </li>
         <li class="gallery__accent">
           <div class="gallery__box">
-            <img
-              src="./images/portfolio_img/project_boxes.jpg"
-              alt="boxes"
-              width="370"
-              height="294"
-            />
+            <div>
+              <picture>
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/portfolio_img/project_boxes-mobile-1x.jpg    1x,
+                    ./images/portfolio_img/project_boxes-mobile-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 756px)"
+                  srcset="
+                    ./images/portfolio_img/project_boxes-tablet-1x.jpg    1x,
+                    ./images/portfolio_img/project_boxes-tablet-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/portfolio_img/project_boxes-desktop-1x.jpg    1x,
+                    ./images/portfolio_img/project_boxes-desktop-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                class="gallery__picture"
+                  src="./images/portfolio_img/project_boxes.jpg"
+                  alt="boxes"
+                  width="370"
+                  height="294"
+                />
+              </picture>
+            </div>
+
             <div class="gallery__overlay">
               <p class="gallery__overlay--text">
                 Technotrack jest popularną platformą wykorzystywaną do
@@ -226,12 +373,44 @@
         </li>
         <li class="gallery__accent">
           <div class="gallery__box">
-            <img
-              src="./images/portfolio_img/inspirations_has_no_borders.jpg"
-              alt="monitor"
-              width="370"
-              height="294"
-            />
+            <div>
+              <picture>
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/portfolio_img/inspirations_has_no_borders-mobile-1x.jpg    1x,
+                    ./images/portfolio_img/inspirations_has_no_borders-mobile-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 756px)"
+                  srcset="
+                    ./images/portfolio_img/inspirations_has_no_borders-tablet-1x.jpg    1x,
+                    ./images/portfolio_img/inspirations_has_no_borders-tablet-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/portfolio_img/inspirations_has_no_borders-desktop-1x.jpg    1x,
+                    ./images/portfolio_img/inspirations_has_no_borders-desktop-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                class="gallery__picture"
+                  src="./images/portfolio_img/inspirations_has_no_borders.jpg"
+                  alt="monitor"
+                  width="370"
+                  height="294"
+                />
+              </picture>
+            </div>
+
             <div class="gallery__overlay">
               <p class="gallery__overlay--text">
                 Technotrack jest popularną platformą wykorzystywaną do
@@ -246,12 +425,44 @@
         </li>
         <li class="gallery__accent">
           <div class="gallery__box">
-            <img
-              src="./images/portfolio_img/magazine_limited_edition.jpg"
-              alt="magazine"
-              width="370"
-              height="294"
-            />
+            <div>
+              <picture>
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/portfolio_img/magazine_limited_edition-mobile-1x.jpg    1x,
+                    ./images/portfolio_img/magazine_limited_edition-mobile-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 756px)"
+                  srcset="
+                    ./images/portfolio_img/magazine_limited_edition-tablet-1x.jpg    1x,
+                    ./images/portfolio_img/magazine_limited_edition-tablet-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/portfolio_img/magazine_limited_edition-desktop-1x.jpg    1x,
+                    ./images/portfolio_img/magazine_limited_edition-desktop-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                class="gallery__picture"
+                  src="./images/portfolio_img/magazine_limited_edition.jpg"
+                  alt="magazine"
+                  width="370"
+                  height="294"
+                />
+              </picture>
+            </div>
+
             <div class="gallery__overlay">
               <p class="gallery__overlay--text">
                 Technotrack jest popularną platformą wykorzystywaną do
@@ -266,12 +477,44 @@
         </li>
         <li class="gallery__accent">
           <div class="gallery__box">
-            <img
-              src="./images/portfolio_img/project_lab.jpg"
-              alt="label"
-              width="370"
-              height="294"
-            />
+            <div>
+              <picture>
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/portfolio_img/project_lab-mobile-1x.jpg    1x,
+                    ./images/portfolio_img/project_lab-mobile-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 756px)"
+                  srcset="
+                    ./images/portfolio_img/project_lab-tablet-1x.jpg    1x,
+                    ./images/portfolio_img/project_lab-tablet-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/portfolio_img/project_lab-desktop-1x.jpg    1x,
+                    ./images/portfolio_img/project_lab-desktop-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                class="gallery__picture"
+                  src="./images/portfolio_img/project_lab.jpg"
+                  alt="label"
+                  width="370"
+                  height="294"
+                />
+              </picture>
+            </div>
+
             <div class="gallery__overlay">
               <p class="gallery__overlay--text">
                 Technotrack jest popularną platformą wykorzystywaną do
@@ -286,12 +529,45 @@
         </li>
         <li class="gallery__accent">
           <div class="gallery__box">
-            <img
-              src="./images/portfolio_img/growing_business.jpg"
-              alt="hands on a laptop"
-              width="370"
-              height="294"
-            />
+            <div>
+              <picture>
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/portfolio_img/growing_business-mobile-1x.jpg    1x,
+                    ./images/portfolio_img/growing_business-mobile-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 756px)"
+                  srcset="
+                    ./images/portfolio_img/growing_business-tablet-1x.jpg    1x,
+                    ./images/portfolio_img/growing_business-tablet-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/portfolio_img/growing_business-desktop-1x.jpg    1x,
+                    ./images/portfolio_img/growing_business-desktop-2x@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <img
+                class="gallery__picture"
+                  src="./images/portfolio_img/growing_business.jpg"
+                  alt="hands on a laptop"
+                  width="370"
+                  height="294"
+                />
+              </picture>
+            </div>
+
             <div class="gallery__overlay">
               <p class="gallery__overlay--text">
                 Technotrack jest popularną platformą wykorzystywaną do
@@ -388,12 +664,10 @@
     <div class="mobile-menu js-menu-container">
       <div class="mobile-menu__box">
         <button class="js-close-menu">
-        <svg class="mobile-menu__close" height="19" width="19">
-          <use
-            href="./images/icons.svg#icon-Vector"
-          ></use>
-        </svg>
-      </button>
+          <svg class="mobile-menu__close" height="19" width="19">
+            <use href="./images/icons.svg#icon-Vector"></use>
+          </svg>
+        </button>
 
         <ul class="mobile-menu__list">
           <li>
@@ -466,6 +740,5 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"></script>
       </div>
     </div>
-
   </body>
 </html>

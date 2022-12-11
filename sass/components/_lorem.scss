@@ -66,6 +66,7 @@
     margin: 0 auto;
   }
 
+
   .lorem__icon {
     width: 45vw;
     max-width: 354px;
@@ -112,20 +113,21 @@
 
 @media (min-width: 1200px) {
   .lorem {
-    max-width: var(--desktop-width);
+   min-width: 100%;
+    flex-wrap: nowrap;
   }
 
   .lorem__icon {
-    width: 270px;
+    width: 22vw;
   }
 
   .lorem__text {
-    width: 270px;
+    width: 22vw;
     height: 75px;
   }
 
   .lorem__list--item {
-    max-width: 270px;
+    max-width: 22vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
