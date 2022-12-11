@@ -164,16 +164,22 @@
 
   .team__photo {
     width: 20vw;
+    max-width: 320px;
     min-height: 428px;
+    max-height: 500px;
   }
 
   .team__photo--size {
     width: 20vw;
-    min-height: 260px;
+    max-width: 320px;
+  min-height: 320;
+    max-height: 340px;
   }
 
   .team__photo--position {
     width: 20vw;
-    min-height: 428px;
+    max-width: 320px;
+    height: 428px;
+    max-height: 500px;
   }
 }

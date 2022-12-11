@@ -110,7 +110,7 @@
 
 @media (min-width: 1200px) {
   .wrapper {
-    max-width: var(--desktop-width);
+    min-width: var(--desktop-width);
     font-family: "Roboto";
     font-style: normal;
     font-weight: 900;
