@@ -104,7 +104,17 @@
   }
 
   .gallery__box {
-    width: 100%;
+    // width: 100%;
+    width: 40vw;
+    min-width: 354px;
+    max-width: 380px;
+  }
+
+  .gallery__accent {
+    width: 40vw;
+    min-width: 354px;
+    max-width: 380px;
+    height: 440px;
   }
 }
 
@@ -162,6 +172,9 @@
     padding-bottom: 20px;
   }
 
+  .gallery__accent {
+    width: 370px;
+  }
   .gallery__box {
     width: 370px;
     height: 294px;
