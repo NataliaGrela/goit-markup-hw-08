@@ -57,7 +57,7 @@
 }
 
 .team__photo--size {
-  width: 100%
+  width: 100%;
 }
 
 .team__photo--position {
@@ -107,14 +107,13 @@
   }
 
   .team__list {
-   width: 100%;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
   }
 
   .team__title {
@@ -161,7 +160,6 @@
     padding-top: 94px;
     margin-bottom: 0;
   }
-
 
   .team__photo {
     width: 20vw;
